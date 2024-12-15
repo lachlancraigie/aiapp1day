@@ -1,14 +1,15 @@
+
 #!/bin/bash
 # chmod +x setup.sh
 # ./setup.sh
 
 # Define the search and replace pairs
 declare -A replacements=(
-    ["<MONGODB_Name>"]="add_value"
-    ["<MONGODB_CONNECTION_STRING>"]="add_value"
-    ["<AZURE_OPENAI_API_INSTANCE_NAME>"]="add_value"
-    ["<AZURE_OPENAI_API_KEY>"]="add_value"
-    ["<GRAPH_RAG_API>"]="add_value"
+    ["<MONGODB_Name>"]="aiapp1day_craigie_88"
+    ["<MONGODB_CONNECTION_STRING>"]="mongodb+srv://aiapp1dayadmin:Aiapp1daypassword123@arg-syd-aiapp1day-mongo.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
+    ["<AZURE_OPENAI_API_INSTANCE_NAME>"]="arg-syd-aiapp1day-openai"
+    ["<AZURE_OPENAI_API_KEY>"]="0f73b2e1cba543ce8c9518712a5b1efc"
+    ["<GRAPH_RAG_API>"]="https://arg-syd-aiapp1day-ca--miqityv.niceisland-66754352.eastus.azurecontainerapps.io"
     # see examples below
     # ["<MONGODB_Name>"]="aiapp1day_daniel_66"
     # ["<MONGODB_CONNECTION_STRING>"]="mongodb+srv://aiapp1dayadmin:Aiapp1daypassword123@arg-syd-aiapp1day-mongo.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
